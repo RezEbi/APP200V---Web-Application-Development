@@ -1,0 +1,216 @@
+[
+  {
+    "id": 1,
+    "name": "Margherita Pizza",
+    "category": "Italy",
+    "price": 120,
+    "description": "Classic Italian pizza with tomato sauce and mozzarella."
+  },
+  {
+    "id": 2,
+    "name": "Pasta Alfredo",
+    "category": "Italy",
+    "price": 110,
+    "description": "Creamy pasta with parmesan and butter sauce."
+  },
+  {
+    "id": 3,
+    "name": "Lasagna",
+    "category": "Italy",
+    "price": 130,
+    "description": "Layers of pasta, meat sauce, and cheese."
+  },
+  {
+    "id": 4,
+    "name": "Risotto",
+    "category": "Italy",
+    "price": 125,
+    "description": "Creamy Italian rice dish with herbs and parmesan."
+  },
+  {
+    "id": 5,
+    "name": "Bruschetta",
+    "category": "Italy",
+    "price": 75,
+    "description": "Toasted bread topped with tomato, garlic, and basil."
+  },
+  {
+    "id": 6,
+    "name": "Tiramisu",
+    "category": "Italy",
+    "price": 68,
+    "description": "Traditional Italian dessert with coffee and mascarpone."
+  },
+
+  {
+    "id": 7,
+    "name": "Classic Burger",
+    "category": "USA",
+    "price": 105,
+    "description": "Grilled beef burger with lettuce, tomato, and cheese."
+  },
+  {
+    "id": 8,
+    "name": "Hot Dog",
+    "category": "USA",
+    "price": 85,
+    "description": "American-style hot dog with mustard and ketchup."
+  },
+  {
+    "id": 9,
+    "name": "French Fries",
+    "category": "USA",
+    "price": 45,
+    "description": "Golden crispy fries served hot."
+  },
+  {
+    "id": 10,
+    "name": "Fried Chicken",
+    "category": "USA",
+    "price": 115,
+    "description": "Crispy fried chicken pieces with seasoning."
+  },
+  {
+    "id": 11,
+    "name": "Mac and Cheese",
+    "category": "USA",
+    "price": 92,
+    "description": "Creamy macaroni baked with cheddar cheese."
+  },
+  {
+    "id": 12,
+    "name": "Cheesecake",
+    "category": "USA",
+    "price": 72,
+    "description": "Classic New York style cheesecake."
+  },
+
+  {
+    "id": 13,
+    "name": "Shawarma",
+    "category": "Arab",
+    "price": 95,
+    "description": "Sliced seasoned meat wrapped with garlic sauce and vegetables."
+  },
+  {
+    "id": 14,
+    "name": "Fattoush",
+    "category": "Arab",
+    "price": 60,
+    "description": "Fresh mixed salad with crispy bread and sumac."
+  },
+  {
+    "id": 15,
+    "name": "Tabbouleh",
+    "category": "Arab",
+    "price": 55,
+    "description": "Parsley salad with tomato, bulgur, and lemon dressing."
+  },
+  {
+    "id": 16,
+    "name": "Kebab Plate",
+    "category": "Arab",
+    "price": 125,
+    "description": "Grilled kebab served with rice and vegetables."
+  },
+  {
+    "id": 17,
+    "name": "Hummus",
+    "category": "Arab",
+    "price": 50,
+    "description": "Creamy chickpea dip served with bread."
+  },
+  {
+    "id": 18,
+    "name": "Kunafa",
+    "category": "Arab",
+    "price": 70,
+    "description": "Sweet cheese pastry topped with syrup and pistachio."
+  },
+
+  {
+    "id": 19,
+    "name": "Croissant",
+    "category": "France",
+    "price": 35,
+    "description": "Buttery French pastry served fresh."
+  },
+  {
+    "id": 20,
+    "name": "Quiche Lorraine",
+    "category": "France",
+    "price": 95,
+    "description": "Savory tart with egg, cheese, and bacon."
+  },
+  {
+    "id": 21,
+    "name": "Ratatouille",
+    "category": "France",
+    "price": 90,
+    "description": "Traditional vegetable dish cooked with herbs and olive oil."
+  },
+  {
+    "id": 22,
+    "name": "Coq au Vin",
+    "category": "France",
+    "price": 135,
+    "description": "French chicken slowly cooked in a rich red wine sauce."
+  },
+  {
+    "id": 23,
+    "name": "Crêpes",
+    "category": "France",
+    "price": 65,
+    "description": "Thin French pancakes served with sweet filling."
+  },
+  {
+    "id": 24,
+    "name": "Crème Brûlée",
+    "category": "France",
+    "price": 70,
+    "description": "Vanilla custard topped with caramelized sugar."
+  },
+
+  {
+    "id": 25,
+    "name": "Tacos",
+    "category": "Mexico",
+    "price": 85,
+    "description": "Soft tortillas filled with seasoned meat and fresh toppings."
+  },
+  {
+    "id": 26,
+    "name": "Burrito",
+    "category": "Mexico",
+    "price": 105,
+    "description": "Large tortilla wrap filled with rice, beans, and meat."
+  },
+  {
+    "id": 27,
+    "name": "Quesadilla",
+    "category": "Mexico",
+    "price": 95,
+    "description": "Grilled tortilla stuffed with melted cheese and filling."
+  },
+  {
+    "id": 28,
+    "name": "Nachos",
+    "category": "Mexico",
+    "price": 75,
+    "description": "Crispy tortilla chips topped with cheese and sauce."
+  },
+  {
+    "id": 29,
+    "name": "Enchiladas",
+    "category": "Mexico",
+    "price": 110,
+    "description": "Rolled tortillas baked with spicy sauce and cheese."
+  },
+  {
+    "id": 30,
+    "name": "Churros",
+    "category": "Mexico",
+    "price": 60,
+    "description": "Fried dough dessert coated with sugar and cinnamon."
+  }
+]
