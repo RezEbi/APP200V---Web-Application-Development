@@ -1,0 +1,132 @@
+:root {
+  /* Juster størrelsen her til du er fornøyd */
+  --brand-height: 72px;          /* desktop: prøv 64–84px ved behov */
+  --brand-height-mobile: 58px;    /* mobil */
+}
+
+/* NAVBAR WRAPPER */
+.navbar {
+  width: 100%;
+  padding: 14px 0;               /* litt strammere padding når logoen er høyere */
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  backdrop-filter: blur(10px);
+}
+
+.navbar-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: min(100%, 1120px);
+  margin-inline: auto;
+  padding-inline: 20px;
+}
+
+/* LOGO */
+.navbar-logo {
+  display: inline-flex;
+  align-items: center;
+  text-decoration: none;
+  line-height: 0;
+  height: var(--brand-height);  /* containerhøyde styrer logoen */
+  /* Hvis du velger zoom-hack under, klipp kantene trygt: */
+  /* overflow: hidden; */
+}
+
+.logo-img {
+  height: 100%;                 /* bildet fyller containeren */
+  width: auto;
+  object-fit: contain;
+  display: block;
+
+  /* Hvis motivet fortsatt virker lite pga «luft» i PNG-en,
+     kan du midlertidig zoome inn (fjern kommentarene under): */
+  /* transform: scale(1.2);       */  /* 1.1–1.5 */
+  /* transform-origin: left center; */
+}
+
+/* DESKTOP MENU */
+.navbar-menu { display: flex; }
+.navbar-pills { display: flex; gap: 20px; }
+
+.navbar-pills a {
+  padding: 8px 16px;
+  border-radius: 999px;
+  text-decoration: none;
+  transition: 0.2s;
+  color: inherit;
+}
+
+.navbar-pills a.active {
+  background: var(--brand-2);
+  color: #fff;
+}
+
+/* HAMBURGER */
+.navbar-toggle {
+  display: none;
+  flex-direction: column;
+  gap: 4px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.navbar-toggle span {
+  width: 26px;
+  height: 3px;
+  background: var(--text);
+  border-radius: 4px;
+}
+
+/* MOBILE */
+@media (max-width: 850px) {
+  .navbar-toggle { display: flex; }
+
+  .navbar-menu {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 75%;
+    max-width: 330px;
+    height: 100vh;
+    background: rgba(255, 255, 255, 0.95);
+    color: #0b111a;
+    backdrop-filter: blur(12px);
+    padding: 80px 24px;
+    transform: translateX(100%);
+    transition: transform 0.3s ease;
+    box-shadow: -6px 0 20px rgba(0,0,0,0.15);
+    z-index: 1001;
+  }
+
+  .navbar-menu.open { transform: translateX(0); }
+
+  .navbar-pills {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .navbar-pills a {
+    font-size: 18px;
+    padding: 12px 18px;
+  }
+
+  .navbar-logo { height: var(--brand-height-mobile); }
+
+  .backdrop {
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.45);
+    opacity: 0;
+    pointer-events: none;
+    transition: 0.25s ease;
+    z-index: 1000;
+  }
+
+  .backdrop.show {
+    opacity: 1;
+    pointer-events: all;
+  }
+}
