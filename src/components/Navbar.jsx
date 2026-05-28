@@ -11,13 +11,8 @@ export default function Navbar() {
     <header className="navbar">
       <div className="navbar-inner">
         <NavLink to="/" className="navbar-brand" onClick={closeMenu}>
-          <div className="brand-mark">FH</div>
-
-          <div className="brand-text">
-            <span className="brand-title">Flavor House</span>
-            <span className="brand-subtitle">Taste the world</span>
-          </div>
-        </NavLink>
+  <img src="/images/logo2.png" alt="Flavor House" className="brand-logo" />
+</NavLink>
 
         <button
           className={`navbar-toggle ${open ? "active" : ""}`}
