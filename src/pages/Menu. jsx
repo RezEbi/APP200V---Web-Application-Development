@@ -1,16 +1,26 @@
 import { useEffect, useState } from "react";
+import { useSearchParams } from "react-router-dom";
 import MenuItemCard from "../components/MenuItemCard";
 
 export default function Menu() {
   const [items, setItems] = useState([]);
   const [activeCategory, setActiveCategory] = useState("All");
   const [search, setSearch] = useState("");
+  const [searchParams] = useSearchParams();
 
   useEffect(() => {
     fetch("/menu.json")
       .then((res) => res.json())
       .then((data) => setItems(data));
   }, []);
+
+  useEffect(() => {
+  const categoryFromUrl = searchParams.get("category");
+
+  if (categoryFromUrl) {
+    setActiveCategory(categoryFromUrl);
+  }
+}, [searchParams]);
 
   const cuisineCards = [
     {
