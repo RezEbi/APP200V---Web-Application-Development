@@ -104,7 +104,7 @@ const moods = [
   {
     id: 4,
     name: "Warm 🌙",
-    destination: "Arabia",
+    destination: "Arab",
     text: "Rich hospitality and deeply comforting flavors.",
   },
   {
@@ -285,7 +285,7 @@ export default function Home() {
             <h3>{selectedMood.destination}</h3>
             <p>{selectedMood.text}</p>
 
-            <Link to="/menu" className="btn primary">
+            <Link to={`/menu?category=${selectedMood.destination}`} className="btn primary">
               Explore this mood
             </Link>
           </div>
