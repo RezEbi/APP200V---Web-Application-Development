@@ -1,32 +1,42 @@
-import { Link } from "react-router-dom";
+import { FaFacebookF, FaWhatsapp } from "react-icons/fa";
+import "./Footer.css";
 
 export default function Footer() {
   return (
-    <footer className="fh-footer">
-      <div className="container fh-footer-inner">
-        <div className="fh-footer-brand">
-          <h3>Flavor House</h3>
-          <p>Taste the world in one place.</p>
+    <footer className="footer">
+      <div className="footer-container">
+
+        <div className="footer-brand">
+          <h2>Flavor House</h2>
+          <p>Taste the world</p>
         </div>
 
-        <div className="fh-footer-links">
-          <Link to="/">Home</Link>
-          <Link to="/menu">Menu</Link>
-          <Link to="/order">Order</Link>
-          <Link to="/book">Book Table</Link>
-          <Link to="/contact">Contact</Link>
-          <Link to="/about">About</Link>
+        <div className="footer-contact">
+          <h4>Contact</h4>
+
+          <span>📍 Karl Johans gate 22, Oslo</span>
+          <span>✉️ flavourhouse@restaurant.no</span>
+          <span>📞 +47 318 84 217</span>
         </div>
 
-        <div className="fh-footer-contact">
-          <p>📍 Oslo, Norway</p>
-          <p>📞 +47 000 00 000</p>
-          <p>✉️ hello@flavorhouse.com</p>
+        <div className="footer-social">
+          <h4>Follow Us</h4>
+
+          <div className="social-icons">
+            <a href="#">
+              <FaFacebookF />
+            </a>
+
+            <a href="#">
+              <FaWhatsapp />
+            </a>
+          </div>
         </div>
+
       </div>
 
-      <div className="fh-footer-bottom">
-        <p>© 2026 Flavor House. All rights reserved.</p>
+      <div className="footer-bottom">
+        © 2026 Flavor House. All rights reserved.
       </div>
     </footer>
   );
