@@ -11,7 +11,7 @@
 .navbar-inner {
   width: min(100%, 1120px);
   margin-inline: auto;
-  padding: 14px 22px;
+  padding: 6px 22px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -23,47 +23,16 @@
 .navbar-brand {
   display: flex;
   align-items: center;
-  gap: 12px;
   text-decoration: none;
-  min-width: 190px;
+  min-width: 90px;
+}
+.brand-logo {
+  height: 82px;
+  width: auto;
+  object-fit: contain;
+  display: block;
 }
 
-.brand-mark {
-  width: 48px;
-  height: 48px;
-  border-radius: 16px;
-  display: grid;
-  place-items: center;
-  font-size: 0.95rem;
-  font-weight: 800;
-  letter-spacing: 0.04em;
-  color: #061018;
-  background: linear-gradient(180deg, var(--brand), var(--brand-2));
-  box-shadow: 0 8px 18px rgba(75, 107, 255, 0.22);
-  flex-shrink: 0;
-}
-
-.brand-text {
-  display: flex;
-  flex-direction: column;
-  line-height: 1.05;
-}
-
-.brand-title {
-  font-size: 1.2rem;
-  font-weight: 800;
-  color: var(--text);
-  letter-spacing: 0.02em;
-}
-
-.brand-subtitle {
-  font-size: 0.78rem;
-  font-weight: 600;
-  color: var(--brand);
-  margin-top: 4px;
-  letter-spacing: 0.05em;
-  text-transform: uppercase;
-}
 
 /* MENU */
 
@@ -209,11 +178,9 @@
     font-size: 0.85rem;
   }
 
-  .brand-title {
-    font-size: 1rem;
-  }
-
-  .brand-subtitle {
-    font-size: 0.7rem;
+}
+@media (max-width: 600px) {
+  .brand-logo {
+    height: 60px;
   }
 }
