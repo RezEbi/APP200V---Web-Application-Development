@@ -55,11 +55,6 @@ export default function Navbar() {
             </NavLink>
           </div>
 
-          <div className="navbar-actions">
-            <NavLink to="/order" className="btn primary" onClick={closeMenu}>
-              Order Now
-            </NavLink>
-          </div>
         </nav>
       </div>
     </header>
