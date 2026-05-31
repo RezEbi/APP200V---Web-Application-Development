@@ -21,9 +21,9 @@ export default function About() {
 
         {/* INTRO */}
         <p className="muted mt-3 reveal" data-reveal>
-          At Flavour House, we believe that food is not just about what you eat - 
+          At Flavour House, we believe that food is not just about what you eat -
           it's about how it makes you feel. Every visit should be more than a meal.
-          It should be a moment. 
+          It should be a moment.
         </p>
 
         {/* STORY */}
@@ -31,13 +31,13 @@ export default function About() {
           <h3>Our Story</h3>
           <p>
             Flavour House was created with a simple idea - to bring people together
-            through meaningful dining experience. We wanted to create a space where
+            through meaningful dining experiences. We wanted to create a space where
             guests can slow down, disconnect from everyday stress, and truly enjoy
-            the moment. 
+            the moment.
           </p>
 
           <p>
-            What started as a small vision has grown into a place where atmosphere, 
+            What started as a small vision has grown into a place where atmosphere,
             details, and emotions matter just as much as the food itself.
           </p>
         </div>
@@ -49,12 +49,12 @@ export default function About() {
           <p>
             Dining with us is about more than taste. It's about the atmosphere,
             the sounds, the energy in the room - and the feeling you get when
-            everything comes together
+            everything comes together.
           </p>
 
           <p>
             A single dish can remind you of somewhere else. A place, a memory,
-            or a moment you didn't even know you missed. 
+            or a moment you didn't even know you missed.
           </p>
 
           <p>
@@ -91,21 +91,24 @@ export default function About() {
           <div className="card">
             <h4>Opening Hours</h4>
             <ul>
-              <li>Mon–Thu: 11:00–21:00</li>
-              <li>Fri–Sat: 11:00–22:30</li>
-              <li>Sunday: 12:00–20:00</li>
+              <li>Mon-Thu: 11:00-21:00</li>
+              <li>Fri-Sat: 11:00-22:30</li>
+              <li>Sunday: 12:00-20:00</li>
             </ul>
           </div>
 
           <div className="card">
-            <h4>Location</h4>
-            <p>Karl Johans gate 22, 0159 Oslo</p>
+            <h4>Good to Know</h4>
+            <p>
+              Every dish is presented with both flavor and atmosphere in mind.
+            </p>
           </div>
 
           <div className="card">
-            <h4>Contact</h4>
-            <p>Email: flavourhouse@restaurant.no</p>
-            <p>Phone: +47 318 84 217</p>
+            <h4>Perfect For</h4>
+            <p>
+              Casual dinners, celebrations, date nights, and relaxed meals with friends.
+            </p>
           </div>
         </div>
       </div>
